@@ -69,7 +69,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 updateOrientation(it)
             }
     }
-
+    //something
     private fun updateOrientation(newDegree: Float) {
         println("new degree: $newDegree")
 
