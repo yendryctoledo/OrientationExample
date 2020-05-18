@@ -25,7 +25,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var marker: Marker
     private lateinit var deviceOrientationHelper: DeviceOrientationHelper
     private var lastValue: Float = 0f
-//second
+//second no
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
