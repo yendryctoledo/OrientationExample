@@ -25,7 +25,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var marker: Marker
     private lateinit var deviceOrientationHelper: DeviceOrientationHelper
     private var lastValue: Float = 0f
-//second no
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
@@ -69,7 +69,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 updateOrientation(it)
             }
     }
-    //something
+    //add some comment
     private fun updateOrientation(newDegree: Float) {
         println("new degree: $newDegree")
 
